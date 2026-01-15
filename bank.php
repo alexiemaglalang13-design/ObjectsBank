@@ -6,10 +6,10 @@ include 'classes/Customer.php';
 include "includes/header.php";
 
 $accounts = [
-    new Account(20489446, "Checking", -20),
-    new Account(20148896, "Savings", 380),
-    new Account(30911245, "Payroll", 1250),
-    new Account(41109877, "Concert Fund", -500)
+    new Account(20489446, "Checking", -20000),
+    new Account(20148896, "Savings", 500),
+    new Account(30911245, "Payroll", 36800),
+    new Account(41109877, "Concert Fund", -9000)
 ];
 
 $customer = new Customer("Alexie", "Maglalang", "atmaglalang@gmail.com", "wd_201", $accounts);
