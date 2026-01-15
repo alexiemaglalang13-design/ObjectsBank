@@ -1,12 +1,13 @@
 <?php
 class Account {
-    public $accountNumber;
-    public $accountType;
-    public $balance;
+    public int $number;
+    public string $type;
+    public float $balance;
 
-    public function __construct($accountNumber, $accountType, $balance) {
-        $this->accountNumber = $accountNumber;
-        $this->accountType = $accountType;
+    public function __construct(int $number, string $type, float $balance) {
+        $this->number = $number;
+        $this->type = $type;
         $this->balance = $balance;
     }
 }
+?>
